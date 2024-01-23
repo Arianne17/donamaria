@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-size: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: black;
+
+}
+
+.flex {
+    display: flex;
+}
+
+.background {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    background-image: url("../../../assets/mulher-com-produtos-de-limpeza.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+    align-items: center;
+    padding-top: 10px;
+    margin: 0 auto;
+    padding-top: 1rem;
+
+}
+.cabecalho{
+    display: flex;
+    gap: 5rem ;
+    font-weight: 300;
+    cursor: pointer;
+}
+.cabecalho a{
+    color: #FFF1E6;
+    font-size: 17px;
+
+}
+.cabecalho a:hover{
+    color: #6494B2;
+    transition: 0.3s all;
+    display: inline-block;
+    
+}
+.logo{
+
+ height: 90px;
+ width: 90px;
+ background-color: transparent;
+ display: inline-flex;
+ border-radius: 50%;
+
+}
+button{
+    color: #DF91AD;
+    background-color: transparent;
+    border: solid 1px #DF91AD;
+    padding: 5px;
+    border-radius: 16px;
+    font-size: 15px;
+    width: 150px;
+    cursor: pointer;
+}
+button:hover{
+    color: #fff;
+    background-color: #DF91AD;
+    transition: 0.5s all;
+    display: inline-block;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.title{
+    font-family: 'Cookie', cursive;
+    color: #DF91AD;
+}
+.container-text{
+    padding: 0%;
+    margin: 130px;
+}
